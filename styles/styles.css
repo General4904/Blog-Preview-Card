@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+    margin: 2em 0 1em 0;
+    padding: 1.2em;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    /* align-items: start; */
+    border-radius: 15px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+.card-body{
+    padding: 1em 1em 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card img{
+    border-radius: 8px;
+}
+
+p#learn.card-text {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: 'Figtree', 'Verdana';
+    font-weight: 800;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+p#publish.card-text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p#foundation.card-text{
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+p#foundation.card-text:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+p#language.card-text{
+    color: hsl(0, 0%, 50%);
+}
+
+p#greg.card-text{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.attribution a{
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color: hsl(0, 0%, 50%);
+    text-decoration: dotted;
+}
+
+@media screen and (orientation: portrait) {
+    .attribution{
+        text-align: center;
+    }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+$yellow: hsl(47, 88%, 63%);
+$border: black;
+$cardColor: hsl(0, 0%, 7%);
+
+body{
+    background-color: $yellow;
+}
+
+.card-text{
+    color: $cardColor;
+}
+
+p#learn.card-text{
+    background-color: $yellow;
+}
